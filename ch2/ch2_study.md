@@ -51,7 +51,7 @@ var 학생 = {
 Math.floor(Math.random() * 9) +1
 Math.ceil(Math.random() * 9)
 ```
-- Math.random() : 0과 1 사이의 랜덤한 수를 리턴
+- Math.random() : 0이상 1미만 사이의 랜덤한 수를 리턴
 - Math.floor() : 소수점 이하를 버림
 - Math.ceil() : 소수점 이하를 올림
 
