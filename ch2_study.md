@@ -46,4 +46,14 @@ var 학생 = {
 
 이 외에도 `Math, Numver, String, Boolean, window`등의 객체를 지원.
 
+### 구구단 구현
+```
+Math.floor(Math.random() * 9) +1
+Math.ceil(Math.random() * 9)
+```
+- Math.random() : 0과 1 사이의 랜덤한 수를 리턴
+- Math.floor() : 소수점 이하를 버림
+- Math.ceil() : 소수점 이하를 올림
+
+→ Math.ceil(Math.random() * 9)이 더 깔끔하다.
 
