@@ -18,6 +18,10 @@ window는 브라우저, document는 페이지(탭)
 ![DOM객체이미지_위키백과](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/330px-DOM-model.svg.png)
 
 ### script 태그 사용법
+.textContent/.value
 
+### 이벤트 리스너 맛보기
+- `.focus` : 입력하고 입력창에 커서가 가있도록 함.
 
-
+- form에서 엔터를 치면 다른페이지로 넘어가거나 새로고침 된다<br>
+→ 이 기본동작을 바꿔주고싶을때는 `.preventDefault()` 사용
