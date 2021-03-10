@@ -86,7 +86,7 @@ ball과 bonus_ball에 쓰이는 css 디자인함수를 최대한 비슷하게 �
 다른 부분은 매개변수로, 겹치는 부분은 다 함수로 만들어준다.
 
 ### 로또추첨기 마무리 & querySelector
-html에서는 calss로 쓰이는걸 js에서는 class사용 못해서 className 이런식으로 써야함
+html에서는 class로 쓰이는걸 js에서는 class사용 못해서 className 이런식으로 써야함
 
 `.getElementById`에는 Element
 `.getElementsByClassName`에서는 Elements
