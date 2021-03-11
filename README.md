@@ -1,3 +1,3 @@
 # project-study
 
-study javascript on youtube
+study javascript, html, css on youtube(제로초님)
