@@ -114,3 +114,27 @@ var 객체 = 내턴 ? 나 : 상대;
 
 2. return문을 리팩토링할때는 어떤함수를 return하는것인지 조심하기.
 
+3. innerHTML / innerText
+
+자바스크립트 코드로 div 내부 글 p 태그 내부 등 내부의 글을 가져올때 innerText 또는 innerHTML 을 사용
+
+- innerHTML : html구조까지 복사한다 → 내부 html 코드를 변경할 수 있다.
+- innerText : 텍스트값만 가져온다
+
+
+### 죽은 카드 정리하기
+1. 데이터 제거하는 방법
+```javascript
+if(데이터.hp <=0) { //카드가 죽었을때
+    var 인덱스 = 상대.필드data.indexOf(데이터); //필드data=쫄병data
+    if(인덱스 > -1) { //쫄병이 죽었을때
+        상대.필드data.splice(인덱스, 1);
+    } else { //영웅이 죽었을때
+
+    }
+}
+```
+indexOf로 데이터가 몇번째 인덱스에 있는지 찾고, splice로 데이터 빼내기
+
++)함수명에 함수의 기능 잘 녹여내기
+
